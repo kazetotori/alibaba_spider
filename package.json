@@ -1,0 +1,27 @@
+{
+  "name": "alibaba-spider",
+  "version": "1.0.0",
+  "description": "阿里巴巴爬虫",
+  "main": "./src/main",
+  "dependencies": {
+    "@types/cheerio": "^0.22.8",
+    "@types/node": "^10.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "node-cmd": "^3.0.0",
+    "nodecmd": "^1.0.1",
+    "requests": "^0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./out/test",
+    "start": "node ./lifecycle/start",
+    "clean": "node ./lifecycle/clean",
+    "build": "node ./lifecycle/build",
+    "server":"node /Users/qian/Documents/warkspace/any/app2"
+  },
+  "keywords": [
+    "alibaba"
+  ],
+  "author": "zq.song",
+  "license": "ISC"
+}
