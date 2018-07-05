@@ -1,3 +1,9 @@
+项目运行
+npm install
+npm run build
+npm run start
+
+
 项目目录介绍
 
 + src             -- 源码目录
